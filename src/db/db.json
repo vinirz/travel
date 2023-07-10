@@ -1,0 +1,48 @@
+{
+  "trend": [
+    {
+        "id": 1,
+        "name": "Barcelona",
+        "country": "Espanha",
+        "description": "Barcelona, capital cosmopolita da região da Catalunha na Espanha, é conhecida pela sua arte e arquitetura.",
+        "image": "https://www.spain.info/.content/imagenes/cabeceras-grandes/cataluna/park-guell-barcelona-s-305364611.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Bali",
+        "country": "Indonésia",
+        "description": "Bali é um destino paradisíaco conhecido por suas praias deslumbrantes, cultura rica e paisagens exuberantes.",
+        "image": "https://www.indonesia.travel/content/dam/indtravelrevamp/en/destinations/bali-nusa-tenggara/bali/bali/ulun-danu-beratan-iconic-temple-on-lake-beratan-in-the-bedugul-highlands/ulun-danu.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Paris",
+        "country": "França",
+        "description": "Paris, a capital da França, é famosa por sua história, arte, gastronomia e pela icônica Torre Eiffel.",
+        "image": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-paris-capa2019-02.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Rio de Janeiro",
+        "country": "Brasil",
+        "description": "Rio de Janeiro é uma cidade brasileira conhecida por suas belas praias, paisagens deslumbrantes e o icônico Cristo Redentor.",
+        "image": "https://blog.123milhas.com/wp-content/uploads/2022/12/conheca-os-lugares-com-as-melhores-vistas-do-rio-de-janeiro-conexao123.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Tóquio",
+        "country": "Japão",
+        "description": "Tóquio, a capital do Japão, é uma metrópole vibrante, repleta de tecnologia, cultura única e maravilhas arquitetônicas.",
+        "image": "https://w.forfun.com/fetch/db/db779214ba3b521fcad0b90bfb30fe78.jpeg"
+    }
+  ],
+  "profiles": [
+    {
+      "id": 1,
+      "name": "Vinicius",
+      "mail": "vini@gmail.com",
+      "password": "123",
+      "destinations": []
+    }
+  ]
+}
