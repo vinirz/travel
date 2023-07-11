@@ -1,6 +1,7 @@
 import axios from "axios"
 import { useEffect, useState } from "react"
 import TravelCard from './../components/TravelCard';
+import Header from './../components/Header';
 
 export default function Home(){
 
@@ -12,13 +13,17 @@ export default function Home(){
             const response = await axios.get('http://localhost:3000/trend')
             setDestinations(response.data)
             setCurrentDest(response.data[0])
+
+            const profileInfo = await axios.get('http://localhost:3000/profiles')
+            localStorage.setItem('user', JSON.stringify(profileInfo.data[0]))
         }
 
         getData()
     }, [])
 
     return(
-        <main className="h-screen w-screen bg-cover bg-no-repeat flex items-center justify-center relative overflow-hidden transition-all" style={{backgroundImage: `url('${currentDest.image}')`}}>
+        <main className="h-screen w-screen bg-cover bg-no-repeat flex items-center justify-center relative overflow-hidden transition-all select-none" style={{backgroundImage: `url('${currentDest.image}')`}}>
+            <Header/>
             <div className="absolute bg-gradient-to-r from-black/50 to-black/10 h-full w-full backdrop-blur-sm z-0"></div>
             <div className="w-full flex gap-60 items-center z-10">
                 <span className="text-zinc-100 w-1/2 h-60 pl-10 flex flex-col">
@@ -31,7 +36,7 @@ export default function Home(){
                     {
                         destinations.map((destination)=>{
                             return (
-                                <span onClick={()=>setCurrentDest(destination)} className="snap-start cursor-pointer">
+                                <span onClick={()=>setCurrentDest(destination)} className="snap-start cursor-pointer" key={destination.id}>
                                     <TravelCard image={destination.image} title={destination.name}/>
                                 </span>
                             ) 
