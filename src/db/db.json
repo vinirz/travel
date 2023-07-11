@@ -49,71 +49,143 @@
           "coordinates": [138.2529, 36.2048],
           "start": 1667141700000,
           "end": 1698767700000,
-          "budget": 5000,
+          "budget": 15000,
+          "outlay": 9000,
+          "packing": [
+            "Shorts",
+            "Jeans",
+            "T-Shirts",
+            "Pijamas",
+            "Earphones",
+            "Charger",
+            "PowerBank"
+          ],
+          "notes": "Minha viagem ao Japão foi uma jornada inesquecível. Em Tóquio, fui imerso em uma metrópole moderna e pulsante, onde tradição e tecnologia se encontram. Em Quioto, encontrei paz e encanto nas antigas tradições e templos. Cada momento nesta terra de contrastes foi uma descoberta fascinante.",
           "hotspots": ["Monte Fuji", "Templo de Kiyomizu", "Torre de Tóquio"]
         },
         {
           "id": 2,
           "destination": "Caribe",
           "coordinates": [-75.6895, 12.8797],
-          "start": 1681202100000,
-          "end": 1692578100000,
-          "budget": 0,
+          "start": 1678921200000,
+          "end": 1682766000000,
+          "budget": 5000,
+          "outlay": 3500,
+          "packing": [
+            "Swimsuit",
+            "Sunscreen",
+            "Beach Towel",
+            "Sunglasses",
+            "Flip Flops",
+            "Hat"
+          ],
+          "notes": "Minhas férias no Caribe foram incríveis. Aproveitei o sol, as praias de areia branca e as águas cristalinas. Foi uma experiência relaxante e revigorante.",
           "hotspots": ["Praia de Punta Cana", "Chichen Itza", "Parque Nacional Morne Trois Pitons"]
         },
         {
           "id": 3,
           "destination": "Canadá",
           "coordinates": [-106.3468, 56.1304],
-          "start": 1692926900000,
-          "end": 1704302900000,
-          "budget": 0,
+          "start": 1684920900000,
+          "end": 1691048900000,
+          "budget": 8000,
+          "outlay": 6500,
+          "packing": [
+            "Winter Jacket",
+            "Thermal Clothing",
+            "Snow Boots",
+            "Gloves",
+            "Beanie"
+          ],
+          "notes": "Minha viagem ao Canadá no inverno foi cheia de aventuras. Explorei as paisagens deslumbrantes cobertas de neve e participei de atividades como esqui e snowboarding. Foi uma experiência emocionante!",
           "hotspots": ["Cataratas do Niágara", "Parque Nacional Banff", "Toronto"]
         },
         {
           "id": 4,
           "destination": "Irlanda",
           "coordinates": [-8.2439, 53.4129],
-          "start": 1698836500000,
-          "end": 1710212500000,
-          "budget": 0,
+          "start": 1689041628807,
+          "end": 1699041628807,
+          "budget": 6000,
+          "outlay": 4500,
+          "packing": [
+            "Rain Jacket",
+            "Umbrella",
+            "Hiking Boots",
+            "Camera",
+            "Adapter"
+          ],
+          "notes": "Minha viagem pela Irlanda foi mágica. Explorei paisagens verdes exuberantes, castelos antigos e aproveitei a atmosfera acolhedora dos pubs. Foi uma experiência encantadora!",
           "hotspots": ["Penhascos de Moher", "Dublin", "Anel de Kerry"]
         },
         {
           "id": 5,
           "destination": "Alemanha",
           "coordinates": [10.4515, 51.1657],
-          "start": 1701298900000,
-          "end": 1712674900000,
-          "budget": 0,
+          "start": 1699041628807,
+          "end": 1709041628807,
+          "budget": 7000,
+          "outlay": 5500,
+          "packing": [
+            "Comfortable Shoes",
+            "Camera",
+            "Guidebook",
+            "Travel Adapter"
+          ],
+          "notes": "Minha viagem à Alemanha foi cheia de história e cultura. Explorei cidades vibrantes, visitei castelos imponentes e provei a deliciosa culinária local. Foi uma experiência fascinante!",
           "hotspots": ["Berlim", "Castelo de Neuschwanstein", "Catedral de Colônia"]
         },
         {
           "id": 6,
           "destination": "Rússia",
           "coordinates": [105.3188, 61.5240],
-          "start": 1696601700000,
-          "end": 1707977700000,
-          "budget": 0,
+          "start": 1709041628807,
+          "end": 1719041628807,
+          "budget": 9000,
+          "outlay": 7500,
+          "packing": [
+            "Winter Clothing",
+            "Russian Phrasebook",
+            "Camera",
+            "Travel Adapter"
+          ],
+          "notes": "Minha viagem à Rússia foi uma imersão na rica história e cultura deste país. Explorei cidades impressionantes, visitei palácios deslumbrantes e conheci a hospitalidade do povo russo. Foi uma experiência única!",
           "hotspots": ["Moscou", "São Petersburgo", "Lago Baikal"]
         },
         {
           "id": 7,
           "destination": "África",
           "coordinates": [17.8739, -9.2588],
-          "start": 1684966500000,
-          "end": 1696342500000,
-          "budget": 0,
+          "start": 1719041628807,
+          "end": 1729041628807,
+          "budget": 10000,
+          "outlay": 8000,
+          "packing": [
+            "Safari Hat",
+            "Binoculars",
+            "Insect Repellent",
+            "Sunscreen"
+          ],
+          "notes": "Minha aventura na África foi incrível. Fiz safáris emocionantes, vi de perto a vida selvagem e explorei paisagens naturais deslumbrantes. Foi uma experiência inesquecível!",
           "hotspots": ["Safari no Serengeti", "Pirâmides de Gizé", "Cabo da Boa Esperança"]
         },
         {
           "id": 8,
           "destination": "Porto de Galinhas",
           "coordinates": [-35.0044, -8.4902],
-          "start": 1677350100000,
-          "end": 1688726100000,
-          "budget": 0,
-          "hotspots": ["Piscinas Naturais de Porto de Galinhas", "Praia dos Carneiros", "Centro Histórico de Olinda"]
+          "start": 1729041628807,
+          "end": 1739041628807,
+          "budget": 4000,
+          "outlay": 3000,
+          "packing": [
+            "Swimsuit",
+            "Beach Towel",
+            "Sunscreen",
+            "Flip Flops",
+            "Sunglasses"
+          ],
+          "notes": "Minhas férias em Porto de Galinhas foram relaxantes e cheias de diversão. Aproveitei as belas praias, as piscinas naturais e a deliciosa culinária local. Foi uma viagem rejuvenescedora!",
+          "hotspots": ["Piscinas Naturais", "Praia dos Carneiros", "Olinda"]
         }
       ]      
     }
