@@ -13,9 +13,6 @@ export default function Home(){
             const response = await axios.get('http://localhost:3000/trend')
             setDestinations(response.data)
             setCurrentDest(response.data[0])
-
-            const profileInfo = await axios.get('http://localhost:3000/profiles')
-            localStorage.setItem('user', JSON.stringify(profileInfo.data[0]))
         }
 
         getData()

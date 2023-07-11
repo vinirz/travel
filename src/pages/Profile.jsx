@@ -2,6 +2,8 @@ import Map from './../components/Map';
 import Travels from './../components/Travels';
 
 export default function Profile(){
+
+
     return(
         <div className="h-screen w-screen bg-no-repeat bg-cover bg-bottom relative flex overflow-hidden" style={{backgroundImage: `url(https://i.pinimg.com/originals/fc/fa/d1/fcfad17eed2e76351bf3ba565104b422.jpg)`}}>
             <div className="absolute bg-zinc-700/10 h-full w-full backdrop-blur-md z-0"></div>

@@ -9,7 +9,7 @@ export default function Header(){
                     <Link to="/">Top viagens</Link>
                 </li>
                 <li className="cursor-pointer bg-white/75 rounded-full p-1 px-5 text-zinc-900">
-                    <Link to="/profile">Meu perfil</Link>
+                    <Link to="/login" >Meu perfil</Link>
                 </li>
             </ul>
         </main>

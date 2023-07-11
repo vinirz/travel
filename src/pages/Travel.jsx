@@ -7,13 +7,12 @@ export default function Travel(){
     const {id} = useParams()
     const currentTravel = JSON.parse(localStorage.getItem('user')).destinations[id - 1]
     const average = ((currentTravel.outlay * 100 ) / currentTravel.budget).toString()
-    console.log(average)
 
     return(
         <div className="h-screen w-screen bg-no-repeat bg-cover bg-bottom flex relative overflow-hidden" style={{backgroundImage: `url(https://i.pinimg.com/originals/fc/fa/d1/fcfad17eed2e76351bf3ba565104b422.jpg)`}}>
-            <div className="absolute h-full w-full bg-cover z-0 opacity-75" style={{backgroundImage: "url('https://static.vecteezy.com/system/resources/previews/000/121/658/original/grunge-paper-texture-vectors.jpg')"}}></div>
+            <div className="absolute h-full w-full bg-cover z-0 opacity-50" style={{backgroundImage: "url('https://static.vecteezy.com/system/resources/previews/000/121/658/original/grunge-paper-texture-vectors.jpg')"}}></div>
             <div className="h-screen w-screen z-10 flex items-center justify-center relative">
-                <h1 className="absolute top-5 left-5 text-2xl font-semibold text-zinc-800">{currentTravel.destination}</h1>
+                <h1 className="absolute top-5 left-5 text-2xl font-semibold text-zinc-100">{currentTravel.destination}</h1>
                 <div className="h-96 w-2/3 grid gap-4 grid-cols-7">
                     <div className="bg-zinc-700 overflow-hidden col-span-2 row-span-2 rounded-md">
                         <div className="w-full h-10 p-3">
@@ -22,7 +21,7 @@ export default function Travel(){
                         <div className="h-full flex flex-col w-full p-3 py-5 gap-3 overflow-auto">
                             {
                                 currentTravel.packing.map((pack) => {
-                                    return <h1 className="text-md text-zinc-100"> - {pack}</h1>
+                                    return <h1 className="text-md text-zinc-100" key={pack}> - {pack}</h1>
                                 })
                             }
                         </div>
@@ -37,15 +36,15 @@ export default function Travel(){
                         </div>  
 
                         <div className="h-[90%] w-1 flex items-end mx-7 overflow-hidden bg-white rounded-full">
-                            <div className={`bg-rose-500 rounded-full w-full h-[${average}%]`}></div>
+                            <div className="bg-rose-500 rounded-full w-full" style={{height: `${average}%`}}></div>
                         </div>
 
-                        <div className="w-2/3 h-full bg-zinc-600 flex items-center justify-center">
-                            <div className="w-3/4 h-1 rounded-full bg-zinc-100 flex items-center [&>*:nth-child(even)]:flex-col-reverse [&>*:nth-child(even)]:mt-[5.5rem]">
+                        <div className="w-2/3 h-full bg-zinc-600 flex items-center justify-center overflow-auto">
+                            <div className="w-[90%] h-1 rounded-full bg-zinc-100 flex items-center justify-between [&>*:nth-child(even)]:flex-col-reverse [&>*:nth-child(even)]:mt-[5.5rem]">
                                 {
                                     currentTravel.hotspots.map((hotspot) => {
                                         return (
-                                            <span className="flex flex-col items-center mb-[2.7rem]">
+                                            <span className="flex flex-col items-center mb-[2.7rem]" key={hotspot}>
                                                 <h1 className="text-sm whitespace-nowrap text-zinc-100 overflow-hidden">{hotspot}</h1>
                                                 <div className="h-5 w-1 bg-zinc-800 rounded-t-full"></div>
                                                 <div className="rounded-full flex items-center justify-center h-5 aspect-square bg-zinc-800"><div className="h-2 aspect-square rounded-full bg-zinc-100"/></div>
