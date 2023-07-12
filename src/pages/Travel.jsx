@@ -44,7 +44,7 @@ export default function Travel(){
         <div className="h-screen w-screen bg-no-repeat bg-cover bg-bottom flex relative overflow-hidden" style={{backgroundImage: `url(https://i.pinimg.com/originals/fc/fa/d1/fcfad17eed2e76351bf3ba565104b422.jpg)`}}>
             <div className="absolute h-full w-full bg-cover z-0 opacity-50" style={{backgroundImage: "url('https://static.vecteezy.com/system/resources/previews/000/121/658/original/grunge-paper-texture-vectors.jpg')"}}></div>
             {currentTravel && (<div className="h-screen w-screen z-10 flex items-center justify-center relative">
-                <h1 className="absolute top-5 left-5 text-2xl font-semibold text-zinc-100">{currentTravel.destination}</h1>
+                <h1 className="absolute top-5 left-5 text-2xl font-semibold text-zinc-100 capitalize">{currentTravel.destination}</h1>
                 <div className="h-96 w-2/3 grid gap-4 grid-cols-7">
                     <div className="bg-zinc-700 overflow-hidden col-span-2 row-span-2 rounded-md">
                         <div className="w-full h-10 p-3">

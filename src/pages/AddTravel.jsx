@@ -69,7 +69,7 @@ export default function AddTravel(){
         }
 
         if(AddNewTravel(newDestination)){
-            navigate("/profile")
+            window.location.href = '/profile'
         }
     }
 

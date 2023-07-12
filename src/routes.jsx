@@ -5,6 +5,7 @@ import Travel from "./pages/Travel";
 import Login from "./pages/Login";
 import { isAuthenticated } from "./utils";
 import AddTravel from './pages/AddTravel';
+import CreateAccount from "./pages/CreateAccount";
 
 const PrivateRoute = ({children, redirectTo}) => {
     return isAuthenticated() ? children : <Navigate to={redirectTo}/>
@@ -16,6 +17,8 @@ export function MyRoutes(){
             <Route path="/" element={<Home/>}/>
 
             <Route path="/login" element={<Login/>}/>
+
+            <Route path="/createaccount" element={<CreateAccount/>}/>
 
             <Route path="/profile" element={
                 <PrivateRoute redirectTo="/login">

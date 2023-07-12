@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 import { Logar, isAuthenticated } from "../utils"
 import { useEffect } from "react"
 
@@ -25,10 +25,12 @@ export default function Login(){
     return(
         <div className="h-screen w-screen bg-no-repeat bg-cover bg-bottom relative flex items-center justify-center overflow-hidden" style={{backgroundImage: `url(https://i.pinimg.com/originals/fc/fa/d1/fcfad17eed2e76351bf3ba565104b422.jpg)`}}>
             <div className="absolute bg-zinc-700/10 h-full w-full backdrop-blur-md z-0"></div>
-            <form className="z-10 flex flex-col gap-5 w-1/4" onSubmit={(e) => {e.preventDefault(), handleLogin(e)}}>
+            <form className="z-10 flex flex-col items-center justify-center gap-5 w-1/4" onSubmit={(e) => {e.preventDefault(), handleLogin(e)}}>
+                <h1 className="text-3xl text-center mb-8 text-zinc-100">Faça login <br/> para continuar</h1>
                 <input type="email" id="mail" placeholder="Email" className="h-14 w-full p-5 rounded-full"/>
                 <input type="password" id="password" placeholder="Senha" className="h-14 w-full p-5 rounded-full"/>
-                <input type="submit" value="Entrar" className="h-14 w-full bg-cyan-600 flex items-center justify-center text-zinc-100 p-5 rounded-full"/>
+                <input type="submit" value="Entrar" className="h-14 w-full mt-8 bg-cyan-600 flex items-center justify-center text-zinc-100 p-5 rounded-full"/>
+                <Link className="text-zinc-100 cur" to="/createaccount">criar conta</Link>
             </form>
         </div>
     )
