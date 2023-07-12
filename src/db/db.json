@@ -1,39 +1,39 @@
 {
   "trend": [
     {
-        "id": 1,
-        "name": "Barcelona",
-        "country": "Espanha",
-        "description": "Barcelona, capital cosmopolita da região da Catalunha na Espanha, é conhecida pela sua arte e arquitetura.",
-        "image": "https://www.spain.info/.content/imagenes/cabeceras-grandes/cataluna/park-guell-barcelona-s-305364611.jpg"
+      "id": 1,
+      "name": "Barcelona",
+      "country": "Espanha",
+      "description": "Barcelona, capital cosmopolita da região da Catalunha na Espanha, é conhecida pela sua arte e arquitetura.",
+      "image": "https://www.spain.info/.content/imagenes/cabeceras-grandes/cataluna/park-guell-barcelona-s-305364611.jpg"
     },
     {
-        "id": 2,
-        "name": "Bali",
-        "country": "Indonésia",
-        "description": "Bali é um destino paradisíaco conhecido por suas praias deslumbrantes, cultura rica e paisagens exuberantes.",
-        "image": "https://www.indonesia.travel/content/dam/indtravelrevamp/en/destinations/bali-nusa-tenggara/bali/bali/ulun-danu-beratan-iconic-temple-on-lake-beratan-in-the-bedugul-highlands/ulun-danu.jpg"
+      "id": 2,
+      "name": "Bali",
+      "country": "Indonésia",
+      "description": "Bali é um destino paradisíaco conhecido por suas praias deslumbrantes, cultura rica e paisagens exuberantes.",
+      "image": "https://www.indonesia.travel/content/dam/indtravelrevamp/en/destinations/bali-nusa-tenggara/bali/bali/ulun-danu-beratan-iconic-temple-on-lake-beratan-in-the-bedugul-highlands/ulun-danu.jpg"
     },
     {
-        "id": 3,
-        "name": "Paris",
-        "country": "França",
-        "description": "Paris, a capital da França, é famosa por sua história, arte, gastronomia e pela icônica Torre Eiffel.",
-        "image": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-paris-capa2019-02.jpg"
+      "id": 3,
+      "name": "Paris",
+      "country": "França",
+      "description": "Paris, a capital da França, é famosa por sua história, arte, gastronomia e pela icônica Torre Eiffel.",
+      "image": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-paris-capa2019-02.jpg"
     },
     {
-        "id": 4,
-        "name": "Rio de Janeiro",
-        "country": "Brasil",
-        "description": "Rio de Janeiro é uma cidade brasileira conhecida por suas belas praias, paisagens deslumbrantes e o icônico Cristo Redentor.",
-        "image": "https://blog.123milhas.com/wp-content/uploads/2022/12/conheca-os-lugares-com-as-melhores-vistas-do-rio-de-janeiro-conexao123.jpg"
+      "id": 4,
+      "name": "Rio de Janeiro",
+      "country": "Brasil",
+      "description": "Rio de Janeiro é uma cidade brasileira conhecida por suas belas praias, paisagens deslumbrantes e o icônico Cristo Redentor.",
+      "image": "https://blog.123milhas.com/wp-content/uploads/2022/12/conheca-os-lugares-com-as-melhores-vistas-do-rio-de-janeiro-conexao123.jpg"
     },
     {
-        "id": 5,
-        "name": "Tóquio",
-        "country": "Japão",
-        "description": "Tóquio, a capital do Japão, é uma metrópole vibrante, repleta de tecnologia, cultura única e maravilhas arquitetônicas.",
-        "image": "https://w.forfun.com/fetch/db/db779214ba3b521fcad0b90bfb30fe78.jpeg"
+      "id": 5,
+      "name": "Tóquio",
+      "country": "Japão",
+      "description": "Tóquio, a capital do Japão, é uma metrópole vibrante, repleta de tecnologia, cultura única e maravilhas arquitetônicas.",
+      "image": "https://w.forfun.com/fetch/db/db779214ba3b521fcad0b90bfb30fe78.jpeg"
     }
   ],
   "profiles": [
@@ -46,7 +46,10 @@
         {
           "id": 1,
           "destination": "Japão",
-          "coordinates": [138.2529, 36.2048],
+          "coordinates": [
+            138.2529,
+            36.2048
+          ],
           "start": 1667141700000,
           "end": 1698767700000,
           "budget": 15000,
@@ -61,12 +64,19 @@
             "PowerBank"
           ],
           "notes": "Minha viagem ao Japão foi uma jornada inesquecível. Em Tóquio, fui imerso em uma metrópole moderna e pulsante, onde tradição e tecnologia se encontram. Em Quioto, encontrei paz e encanto nas antigas tradições e templos. Cada momento nesta terra de contrastes foi uma descoberta fascinante.",
-          "hotspots": ["Monte Fuji", "Templo de Kiyomizu", "Torre de Tóquio"]
+          "hotspots": [
+            "Monte Fuji",
+            "Templo de Kiyomizu",
+            "Torre de Tóquio"
+          ]
         },
         {
           "id": 2,
           "destination": "Caribe",
-          "coordinates": [-75.6895, 12.8797],
+          "coordinates": [
+            -75.6895,
+            12.8797
+          ],
           "start": 1678921200000,
           "end": 1682766000000,
           "budget": 5000,
@@ -80,12 +90,19 @@
             "Hat"
           ],
           "notes": "Minhas férias no Caribe foram incríveis. Aproveitei o sol, as praias de areia branca e as águas cristalinas. Foi uma experiência relaxante e revigorante.",
-          "hotspots": ["Praia de Punta Cana", "Chichen Itza", "Parque Nacional Morne Trois Pitons"]
+          "hotspots": [
+            "Praia de Punta Cana",
+            "Chichen Itza",
+            "Parque Nacional Morne Trois Pitons"
+          ]
         },
         {
           "id": 3,
           "destination": "Canadá",
-          "coordinates": [-106.3468, 56.1304],
+          "coordinates": [
+            -106.3468,
+            56.1304
+          ],
           "start": 1684920900000,
           "end": 1691048900000,
           "budget": 8000,
@@ -98,12 +115,19 @@
             "Beanie"
           ],
           "notes": "Minha viagem ao Canadá no inverno foi cheia de aventuras. Explorei as paisagens deslumbrantes cobertas de neve e participei de atividades como esqui e snowboarding. Foi uma experiência emocionante!",
-          "hotspots": ["Cataratas do Niágara", "Parque Nacional Banff", "Toronto"]
+          "hotspots": [
+            "Cataratas do Niágara",
+            "Parque Nacional Banff",
+            "Toronto"
+          ]
         },
         {
           "id": 4,
           "destination": "Irlanda",
-          "coordinates": [-8.2439, 53.4129],
+          "coordinates": [
+            -8.2439,
+            53.4129
+          ],
           "start": 1689041628807,
           "end": 1699041628807,
           "budget": 6000,
@@ -116,12 +140,19 @@
             "Adapter"
           ],
           "notes": "Minha viagem pela Irlanda foi mágica. Explorei paisagens verdes exuberantes, castelos antigos e aproveitei a atmosfera acolhedora dos pubs. Foi uma experiência encantadora!",
-          "hotspots": ["Penhascos de Moher", "Dublin", "Anel de Kerry"]
+          "hotspots": [
+            "Penhascos de Moher",
+            "Dublin",
+            "Anel de Kerry"
+          ]
         },
         {
           "id": 5,
           "destination": "Alemanha",
-          "coordinates": [10.4515, 51.1657],
+          "coordinates": [
+            10.4515,
+            51.1657
+          ],
           "start": 1699041628807,
           "end": 1709041628807,
           "budget": 7000,
@@ -133,12 +164,19 @@
             "Travel Adapter"
           ],
           "notes": "Minha viagem à Alemanha foi cheia de história e cultura. Explorei cidades vibrantes, visitei castelos imponentes e provei a deliciosa culinária local. Foi uma experiência fascinante!",
-          "hotspots": ["Berlim", "Castelo de Neuschwanstein", "Catedral de Colônia"]
+          "hotspots": [
+            "Berlim",
+            "Castelo de Neuschwanstein",
+            "Catedral de Colônia"
+          ]
         },
         {
           "id": 6,
           "destination": "Rússia",
-          "coordinates": [105.3188, 61.5240],
+          "coordinates": [
+            105.3188,
+            61.524
+          ],
           "start": 1709041628807,
           "end": 1719041628807,
           "budget": 9000,
@@ -150,12 +188,19 @@
             "Travel Adapter"
           ],
           "notes": "Minha viagem à Rússia foi uma imersão na rica história e cultura deste país. Explorei cidades impressionantes, visitei palácios deslumbrantes e conheci a hospitalidade do povo russo. Foi uma experiência única!",
-          "hotspots": ["Moscou", "São Petersburgo", "Lago Baikal"]
+          "hotspots": [
+            "Moscou",
+            "São Petersburgo",
+            "Lago Baikal"
+          ]
         },
         {
           "id": 7,
           "destination": "África",
-          "coordinates": [17.8739, -9.2588],
+          "coordinates": [
+            17.8739,
+            -9.2588
+          ],
           "start": 1719041628807,
           "end": 1729041628807,
           "budget": 10000,
@@ -167,12 +212,19 @@
             "Sunscreen"
           ],
           "notes": "Minha aventura na África foi incrível. Fiz safáris emocionantes, vi de perto a vida selvagem e explorei paisagens naturais deslumbrantes. Foi uma experiência inesquecível!",
-          "hotspots": ["Safari no Serengeti", "Pirâmides de Gizé", "Cabo da Boa Esperança"]
+          "hotspots": [
+            "Safari no Serengeti",
+            "Pirâmides de Gizé",
+            "Cabo da Boa Esperança"
+          ]
         },
         {
           "id": 8,
           "destination": "Porto de Galinhas",
-          "coordinates": [-35.0044, -8.4902],
+          "coordinates": [
+            -35.0044,
+            -8.4902
+          ],
           "start": 1729041628807,
           "end": 1739041628807,
           "budget": 4000,
@@ -185,9 +237,37 @@
             "Sunglasses"
           ],
           "notes": "Minhas férias em Porto de Galinhas foram relaxantes e cheias de diversão. Aproveitei as belas praias, as piscinas naturais e a deliciosa culinária local. Foi uma viagem rejuvenescedora!",
-          "hotspots": ["Piscinas Naturais", "Praia dos Carneiros", "Olinda"]
+          "hotspots": [
+            "Piscinas Naturais",
+            "Praia dos Carneiros",
+            "Olinda"
+          ]
+        },
+        {
+          "id": 297752996,
+          "destination": "chile",
+          "coordinates": [
+            "-71.3187697",
+            "-31.7613365"
+          ],
+          "start": 1688256000000,
+          "end": 1688947200000,
+          "budget": "10000",
+          "outlay": "5000",
+          "packing": [
+            "chinelo",
+            "blusa de frio",
+            "carregador",
+            "câmera"
+          ],
+          "notes": "Em minha viagem ao Chile, maravilhas se revelaram diante dos meus olhos. A imponente Cordilheira dos Andes desafiava-me a explorar seus picos e vales deslumbrantes. As vinícolas encantavam-me com seus aromas e sabores únicos a serem degustados. Nas ruas de Santiago, mergulhei na rica cultura local, encantando-me com cada detalhe que encontrava pelo caminho.",
+          "hotspots": [
+            "cordilheira dos andes",
+            "vinicolas",
+            "santiago"
+          ]
         }
-      ]      
+      ]
     }
   ]
 }

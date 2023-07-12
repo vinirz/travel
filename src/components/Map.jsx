@@ -1,8 +1,25 @@
+import { useEffect } from 'react';
+import { useState } from 'react';
+import axios from 'axios';
 import { ComposableMap, Geographies, Geography, Marker } from 'react-simple-maps';
 
 export default function Map(){
 
-    const markers = JSON.parse(localStorage.getItem('user')).destinations
+    const [markers, setMarkers] = useState()
+
+    useEffect(() => {
+        async function getData(){
+            const {id} = JSON.parse(localStorage.getItem('user'))
+            const url = `http://localhost:3000/profiles/${id}`
+            const response = await axios.get(url)
+
+            const travel = response.data.destinations
+
+            setMarkers(travel)
+        } 
+
+        getData()
+    }, [])
 
     return(
         <ComposableMap>
@@ -11,15 +28,14 @@ export default function Map(){
                     geographies.map((geo) => <Geography fill='#f4f4f5' key={geo.rsmKey} geography={geo} />)
                 }
             </Geographies>
-
             {
-                markers.map((marker) => {
+                markers && (markers.map((marker, index) => {
                     return (
-                        <Marker coordinates={marker.coordinates}>
+                        <Marker coordinates={marker.coordinates} name={marker.destination} key={index}>
                             <circle r={8} fill="#F00" />
                         </Marker>
                     )
-                })
+                }))
             }
             
         </ComposableMap>
