@@ -59,14 +59,16 @@ export default function AddTravel(){
             "id": coordinates.data[0].place_id,
             "destination": destinationRef.current.value,
             "coordinates": [coordinates.data[0].lon, coordinates.data[0].lat],
-            "start": startRef.current.valueAsNumber,
-            "end": endRef.current.valueAsNumber,
+            "start": startRef.current.value,
+            "end": endRef.current.value,
             "budget": budget,
             "outlay": outlay,
             "packing": packages,
             "notes": noteRef.current.value,
             "hotspots": places
         }
+
+        console.log(newDestination)
 
         if(AddNewTravel(newDestination)){
             window.location.href = '/profile'

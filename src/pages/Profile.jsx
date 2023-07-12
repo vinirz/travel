@@ -13,10 +13,10 @@ export default function Profile(){
             <div className="z-10 text-zinc-100 flex flex-col w-full h-full items-center justify-center">
                 <Travels/>
                 <span className="flex flex-col items-center justify-center font-medium">
-                    <h1 className="text-4xl">Olá, {name}</h1>
+                    <h1 className="text-4xl capitalize">Olá, {name}</h1>
                     <h1>Seja bem vindo!</h1>
                 </span>
-                <div className="h-1/2 aspect-video select-none">
+                <div className="h-1/2 aspect-video select-none pointer-events-none">
                     <Map/>
                 </div>
                 <Link className='h-14 aspect-square rounded-full bg-zinc-100 absolute bottom-7 right-7 flex items-center justify-center text-zinc-900' to="/AddTravel"><Plus/></Link>

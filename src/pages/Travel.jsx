@@ -32,8 +32,8 @@ export default function Travel(){
 
             setAverage(((travel.outlay * 100 ) / travel.budget).toString())
             setDate({
-                start: new Date(travel.start).toLocaleString(undefined, {year: 'numeric', month: '2-digit', day: '2-digit'}),
-                end: new Date(travel.end).toLocaleString(undefined, {year: 'numeric', month: '2-digit', day: '2-digit'})
+                start: travel.start,
+                end: travel.end
             })
         } 
 
